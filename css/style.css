@@ -27,6 +27,14 @@ header {
     margin: 20px 0;
 }
 
+/* ++++++ main ++++++ */
+main .main-header {
+    height: 70px;
+}
+main .main-body {
+    margin: 20px 0;
+}
+
 /* ++++++ debug ++++++ */
 .debug header {
     background-color: hotpink;
@@ -35,3 +43,10 @@ header {
     height: 500px;
     background-color: khaki;
 }
+.debug main {
+    background-color: dodgerblue;
+}
+.debug main div {
+    background-color:lightblue;
+}
+.debug main 
