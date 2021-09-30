@@ -42,6 +42,12 @@ main .main-body .content {
     margin: 0 20px;
 }
 
+/* ++++++ footer ++++++ */
+footer {
+    height: 50px;
+    margin-top: 10px;
+}
+
 /* ++++++ debug ++++++ */
 .debug header {
     background-color: hotpink;
@@ -55,9 +61,12 @@ main .main-body .content {
 }
 .debug main .main-header,
 .debug main .main-body div {
-    background-color:lightblue;
+    background-color: lightblue;
 }
 .debug main .main-body .sidebar,
 .debug main .main-body .content {
     height: 500px;
+}
+.debug footer {
+    background-color: blueviolet;
 }
