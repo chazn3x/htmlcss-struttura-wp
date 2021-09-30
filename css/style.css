@@ -22,7 +22,16 @@ header {
     height: 100px;
 }
 
+/* ++++++ jumbotron ++++++ */
+.jumbotron {
+    margin: 20px 0;
+}
+
 /* ++++++ debug ++++++ */
 .debug header {
     background-color: hotpink;
+}
+.debug .jumbotron {
+    height: 500px;
+    background-color: khaki;
 }
