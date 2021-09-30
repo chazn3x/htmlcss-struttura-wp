@@ -1,4 +1,4 @@
-/* commons */
+/* ++++++ commons ++++++ */
 * {
     margin: 0;
     padding: 0;
@@ -11,4 +11,18 @@
 }
 .left {
     float: left;
+}
+.container {
+    width: 70%;
+    margin: 20px auto;
+}
+
+/* ++++++ header ++++++ */
+header {
+    height: 100px;
+}
+
+/* ++++++ debug ++++++ */
+.debug header {
+    background-color: hotpink;
 }
