@@ -32,7 +32,14 @@ main .main-header {
     height: 70px;
 }
 main .main-body {
-    margin: 20px 0;
+    padding: 20px 0;
+}
+main .main-body .sidebar {
+    width: 20%;
+}
+main .main-body .content {
+    width: calc(60% - 40px);
+    margin: 0 20px;
 }
 
 /* ++++++ debug ++++++ */
@@ -46,7 +53,11 @@ main .main-body {
 .debug main {
     background-color: dodgerblue;
 }
-.debug main div {
+.debug main .main-header,
+.debug main .main-body div {
     background-color:lightblue;
 }
-.debug main 
+.debug main .main-body .sidebar,
+.debug main .main-body .content {
+    height: 500px;
+}
